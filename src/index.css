@@ -1,0 +1,140 @@
+:root{
+  --box-shadow:5px 5px 5px red, -5px -5px 5px blue;
+  --bg-color:rgb(52, 59, 113);
+}
+body{
+  background-color: rgb(11, 26, 51);
+  color: white;
+  font-family:'Times New Roman';
+}
+
+/* Navbar Styling */
+
+.nav_bar{
+  font-size: 1.8rem;  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.nav_bar .nav_items:hover{
+  border-radius: 20px;
+  padding:10px;
+  box-shadow:var(--box-shadow) ;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* Home Styling */
+
+.home{
+  height: 80vh;
+}
+
+.home .left{
+  text-align: center;
+  box-shadow:var(--box-shadow) ;
+  background-color: var(--bg-color);
+}
+.home .left a{
+  box-shadow:var(--box-shadow) ;
+}
+
+.home .left a:hover{
+  background-color:black;
+  transition: 0.5s;
+}
+
+.home .right .img img{
+  height: 350px;
+  width: 350px;
+  border:5px solid red;
+  animation-name:superman;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes superman{
+  0%{
+    border-color:blue;
+    transform:translate(0px,0px);
+    box-shadow:10px 10px 100px 50px blue;
+  }
+  25%{
+    border-color:red;
+    box-shadow:10px 10px 100px 50px red;
+  }
+  50%{
+    border-color:rgb(12,12, 199);
+    transform:translate(0px,10px);
+    box-shadow:10px 10px 100px 50px rgb(12, 12, 199);
+  }
+  75%{
+    border-color:rgb(217, 182, 182);
+    box-shadow:10px 10px 100px 50px rgb(217, 182, 182);
+  }
+  100%{
+    border-color:rgb(50, 55, 205);
+    transform:translate(0px,-0px);
+    box-shadow:10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+/* Skills Section */
+
+.skills .items{
+  margin: auto;
+}
+.skills .items .item{
+  background-color:rgb(22, 22, 22);
+  border-radius: 10px;
+  text-align: center;
+   width: calc(100%/3);
+   box-shadow:var(--box-shadow) ;
+}
+.skills .items .item img{
+  height: 70px;
+  width: 70px;
+}
+
+.skills .items .item:hover{
+  background-color: var(--bg-color);
+  transition: 0.5s;
+  transform: rotateY('180deg');
+  cursor: pointer;
+
+}
+
+/* projects section */
+
+.card{
+  background-color: rgb(22, 22, 22);
+  border-radius: 10px;
+  box-shadow:var(--box-shadow) ;
+}
+
+
+/* contact section */
+
+.contact{
+  height: 30vh;
+}
+.contact-icon .items{
+  background-color:black;
+ border:2px solid white;
+  margin-top: 50px;
+  border-radius: 50px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+.contact-icon .items:hover{
+  border:none;
+  transition: 0.5s;
+  background-color: var(--bg-color);
+  box-shadow:var(--box-shadow) ;
+}
