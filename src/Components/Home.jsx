@@ -1,7 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 import pdf from "../pdf/resume.pdf.pdf";
 import hero from "./Data/hero.json";
-import Typed from "typed.js";
 
 const Home = () => {
   const typedRef = useRef();
