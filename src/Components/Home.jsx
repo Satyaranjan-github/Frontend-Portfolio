@@ -22,25 +22,27 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home d-flex justify-content-between align-items-center 
-      ">
-        <div className="left p-5 rounded "
-        data-aos="fade-right"
-      data-aos-offset="100"
-       >
+      <div className="container home d-flex flex-wrap justify-content-between align-items-center">
+        <div
+          className="left p-4 rounded col-md-6 col-12 text-md-start"
+          data-aos="fade-right"
+          data-aos-offset="100"
+        >
           <h1 ref={typedRef}></h1>
-          <a href={pdf} download="resume.pdf" className="btn text-white fs-5 ">
+          <a href={pdf} download="resume.pdf" className="btn text-white fs-5">
             Download Resume
           </a>
         </div>
-        <div className="right d-flex justify-content-center align-items-center"
+        <div
+          className="right d-flex justify-content-center align-items-center col-md-6 col-12 mt-4 mt-md-0"
           data-aos="fade-left"
-          data-aos-offset="100">
-          <div className="img">
+          data-aos-offset="100"
+        >
+          <div className="img text-center">
             <img
               src={`/assets/${hero.imgSrc}`}
               alt="profile image"
-              className="rounded-circle"
+              className="rounded-circle img-fluid"
             />
           </div>
         </div>
