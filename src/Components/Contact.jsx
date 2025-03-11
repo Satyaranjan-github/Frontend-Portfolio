@@ -1,9 +1,5 @@
-import React from 'react'
-import { FaInstagram } from "react-icons/fa";
-import { CiFacebook } from "react-icons/ci";
-import { FaDiscord } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { FaMailBulk } from "react-icons/fa";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
+import { FaDiscord, FaInstagram, FaMailBulk } from "react-icons/fa";
 
 const Contact = () => {
   return (
