@@ -5,7 +5,7 @@
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "This is a project made with Html, CSS and JavaScript.",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Satyaranjan-github/Tic-Tac-Toe"
   },
   {
     "key": 2,
@@ -30,7 +30,7 @@
     "description": "Made of  React js and CSS.",
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
-  },
+  },  
   {
     "key": 5,
     "title": "Calculator",
@@ -45,15 +45,7 @@
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "Made with Html, css , Js",
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "key": 7,
-    "title": "Sip calculator",
-    "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
-    "description": "Made with Html, css , Js",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Satyaranjan-github/-The-Accomplishment-Archive-To-do-"
   },
   {
     "key": 8,
