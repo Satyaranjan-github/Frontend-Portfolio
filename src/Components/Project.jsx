@@ -32,9 +32,6 @@ const Project = () => {
                 <div className="card-body text-center">
                   <h5 className="card-title fs-3">{data.title}</h5>
                   <p className="card-text fs-5">{data.description}</p>
-                  <a href={data.demo} className="btn btn-primary mx-3">
-                    Demo
-                  </a>
                   <a href={data.source} className="btn btn-danger">
                     Source
                   </a>

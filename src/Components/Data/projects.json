@@ -4,7 +4,6 @@
     "title": "Tic Tac Toe",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "This is a project made with Html, CSS and JavaScript.",
-    "demo": "https://www.example.com",
     "source": "https://github.com/Satyaranjan-github/Tic-Tac-Toe"
   },
   {
@@ -12,7 +11,6 @@
     "title": "College Portfolio",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "This is a project made with complete React js. ,CSS",
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
@@ -20,15 +18,13 @@
     "title": "Word to pdf",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "Project made with React js ,Tailwind CSS.",
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
     "key": 4,
-    "title": "E-commerce web Application",
+    "title": "ATfolio",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
-    "description": "Made of  React js and CSS.",
-    "demo": "https://www.example.com",
+    "description": "Made of  React js and Tailwind-CSS.",
     "source": "https://www.github.com"
   },  
   {
@@ -36,7 +32,6 @@
     "title": "Calculator",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "This is a project made with Html, CSS and JavaScript.",
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
@@ -44,7 +39,6 @@
     "title": "To-do List",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "Made with Html, css , Js",
-    "demo": "https://www.example.com",
     "source": "https://github.com/Satyaranjan-github/-The-Accomplishment-Archive-To-do-"
   },
   {
@@ -52,7 +46,6 @@
     "title": "Food Delivery portfolio",
     "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDzSmofUxwFfNN8gLEtr3gGToPHQfI2Ei-Q&s",
     "description": "Made with Bootstrap",
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
 ]
